@@ -34,7 +34,7 @@ class App extends React.Component {
       return (
         <React.Fragment key={i.command}>
         <br />
-        "{i.command}","{i.level}","","","{i.res}","{i.globalCD}","{i.userCD}","SC","TRUE"
+        "{i.command}","{i.level}","","","{i.res}","{i.globalCD}","{i.userCD}",SC,=TRUE()
         </React.Fragment>
       )
     })
